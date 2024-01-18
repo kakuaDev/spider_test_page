@@ -8,31 +8,30 @@
 ```json
 [
   {
-    "hash": "100",
-    "url": "/1",
-    "points_to": [
-      "110", "120"
+    'url': 'https://niortizva.github.io/spider_test_page',
+    'points_to': [
+      'https://niortizva.github.io/spider_test_page/node1.html',
+      'https://niortizva.github.io/spider_test_page/node2.html'
     ]
   },
   {
-    "hash": "110",
-    "url": "/1",
-    "points_to": [
-      "120", "111"
+    'url': 'https://niortizva.github.io/spider_test_page/node1.html',
+    'points_to': [
+      'https://niortizva.github.io/spider_test_page/node1_1.html',
+      'https://niortizva.github.io/spider_test_page/node2.html'
     ]
   },
   {
-    "hash": "120",
-    "url": "/1",
-    "points_to": [
-      "111"
+    'url': 'https://niortizva.github.io/spider_test_page/node1_1.html',
+    'points_to': [
+      'https://niortizva.github.io/spider_test_page',
+      'https://niortizva.github.io/spider_test_page/node2.html'
     ]
   },
   {
-    "hash": "111",
-    "url": "/1",
-    "points_to": [
-      "100"
+    'url': 'https://niortizva.github.io/spider_test_page/node2.html',
+    'points_to': [
+      'https://niortizva.github.io/spider_test_page/node1_1.html'
     ]
   }
 ]
