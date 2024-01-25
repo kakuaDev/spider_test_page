@@ -16,30 +16,30 @@ B --> C
 ```json
 [
   {
-    "url": "https://niortizva.github.io/spider_test_page",
+    "url": "https://kakuadev.github.io/spider_test_page",
     "points_to": [
-      "https://niortizva.github.io/spider_test_page/node1.html",
-      "https://niortizva.github.io/spider_test_page/node2.html"
+      "https://kakuadev.github.io/spider_test_page/node1.html",
+      "https://kakuadev.github.io/spider_test_page/node2.html"
     ]
   },
   {
-    "url": "https://niortizva.github.io/spider_test_page/node1.html",
+    "url": "https://kakuadev.github.io/spider_test_page/node1.html",
     "points_to": [
-      "https://niortizva.github.io/spider_test_page/node1_1.html",
-      "https://niortizva.github.io/spider_test_page/node2.html"
+      "https://kakuadev.github.io/spider_test_page/node1_1.html",
+      "https://kakuadev.github.io/spider_test_page/node2.html"
     ]
   },
   {
-    "url": "https://niortizva.github.io/spider_test_page/node1_1.html",
+    "url": "https://kakuadev.github.io/spider_test_page/node1_1.html",
     "points_to": [
-      "https://niortizva.github.io/spider_test_page",
-      "https://niortizva.github.io/spider_test_page/node2.html"
+      "https://kakuadev.github.io/spider_test_page",
+      "https://kakuadev.github.io/spider_test_page/node2.html"
     ]
   },
   {
-    "url": "https://niortizva.github.io/spider_test_page/node2.html",
+    "url": "https://kakuadev.github.io/spider_test_page/node2.html",
     "points_to": [
-      "https://niortizva.github.io/spider_test_page/node1_1.html"
+      "https://kakuadev.github.io/spider_test_page/node1_1.html"
     ]
   }
 ]
